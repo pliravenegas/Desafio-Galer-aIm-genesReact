@@ -1,0 +1,41 @@
+body{
+min-height: calc(100vh-165px);
+overflow-x: hidden;
+background-color: #F3E0B5;
+}
+
+header {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #FFAE6D;
+    padding: 10px;
+    margin-bottom: 0;
+    
+
+}
+
+.card {
+    display: inline-block;
+    background: #FFCB42;
+    border: 1px solid #0000;
+    align-items: center;
+    padding: 0.5rem ;
+    margin: 1rem;
+}
+
+footer {
+
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+    border-top: 1px solid rgb(101, 94, 94);
+    background: #FFCB42;
+}
+
+footer p{
+width: 50%;
+font-size: 1rem;
+display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
